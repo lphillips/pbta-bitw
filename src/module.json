@@ -27,7 +27,7 @@
   "socket": false,
   "url": "",
   "manifest": "",
-  "download": "https://host/path/to/0.0.0.zip",
+  "download": "https://github.com/lphillips/pbta-bitw/blob/main/artifacts/pbta-bitw.zip",
   "license": "",
   "readme": "",
   "bugs": "",
