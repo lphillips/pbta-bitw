@@ -1,46 +1,41 @@
 {
   "name": "pbta-bitw",
-  "title": "Babes in the Wood",
-  "description": "Moves, Items, and more for Babes in the Wood, using the Powered by the Apocalypse FoundryVTT system",
-  "version": "0.0.1",
-  "author": "",
-  "authors": [
-    {
-      "name": "Luke Phillips",
-      "email": ""
-    }
-  ],
+  "title": "Babes in the Wood Compendia",
+  "description": "Moves, Items, and more for Babes in the Wood, using the Powered by the Apocalypse FoundryVTT system.",
+  "version": "0.0.2",
+  "author": "Luke Phillips",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.8.9",
-  "scripts": [],
-  "esmodules": ["module/pbta-bitw.js"],
-  "styles": ["styles/pbta-bitw.css"],
-  "packs": [],
-  "dependencies": [],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
-  "socket": false,
-  "url": "",
-  "manifest": "",
-  "download": "https://github.com/lphillips/pbta-bitw/blob/main/artifacts/pbta-bitw.zip?raw=true",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "system": [],
-  "library": false,
+  "download": "https://github.com/lphillips/pbta-bitw/releases/download/0.0.1/pbta-bitw-0.0.2.zip",
+  "system": ["pbta"],
   "packs": [
     {
-      "name": "basicmoves",
+      "name": "basic-moves",
       "label": "Basic Moves",
-      "path": "packs/basic-moves.db",
-      "entity": "Move",
-      "module": "pbta-bitw"
+      "system": "pbta",
+      "path": "./packs/basic-moves.db",
+      "entity": "Item"
+    },
+    {
+      "name": "playbooks",
+      "label": "Playbooks",
+      "system": "pbta",
+      "path": "./packs/playbooks.db",
+      "entity": "Item"
+    },
+    {
+      "name": "special-moves",
+      "label": "Special Moves",
+      "system": "pbta",
+      "path": "./packs/special-moves.db",
+      "entity": "Item"
+    },
+    {
+      "name": "fiend-moves",
+      "label": "Fiend Moves",
+      "system": "pbta",
+      "path": "./packs/fiend-moves.db",
+      "entity": "Item"
     }
   ]
 }
