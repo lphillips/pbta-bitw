@@ -6,7 +6,7 @@
   "author": "Luke Phillips",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.8.9",
-  "download": "https://github.com/lphillips/pbta-bitw/releases/download/0.0.1/pbta-bitw-0.0.2.zip",
+  "download": "https://github.com/lphillips/pbta-bitw/releases/download/0.0.2/pbta-bitw-0.0.2.zip",
   "system": ["pbta"],
   "packs": [
     {
